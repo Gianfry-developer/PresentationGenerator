@@ -1,0 +1,16 @@
+name: pptxgen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - streamlit
+  - pillow
+  - markdown
+  - python-docx
+  - python-pptx
+  - pip
+  - pip:
+      - ollama
+      - docx2txt
+      - pypandoc
+      - pylatexenc
